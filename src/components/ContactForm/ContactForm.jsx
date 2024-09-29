@@ -16,12 +16,6 @@ const ContactForm = () => {
     setName(event.target[0].value);
     setEmail(event.target[1].value);
     setText(event.target[2].value);
-
-    console.log({
-      name,
-      email,
-      text,
-    });
   };
   return (
     <section className={styles.container}>
