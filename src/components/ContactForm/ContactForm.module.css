@@ -2,4 +2,50 @@
     max-width: 1000px;
     display: flex;
     margin: 0 auto;
+    margin-top: 40px;
+    align-items: end;
 }
+
+.top_button{
+    display: flex;
+    gap: 32px;
+}
+
+.contact_form{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.contact_form form{
+    display: flex;
+    padding-bottom: 20px;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.form_contol{
+display: flex;
+flex-direction: column;
+width: 100%;
+position: relative;
+}
+
+.form_contol input{
+    padding: 0 8px;
+    height: 40px;
+}
+
+.form_contol textarea{
+    padding: 8px;
+ 
+}
+.form_contol label{
+    position: absolute;
+    top: -12px;
+    left: 10px;
+    padding: 0 10px;
+    background-color: white;
+    font-size: 14px;
+}
+
